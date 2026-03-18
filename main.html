@@ -483,14 +483,7 @@ var ParticlePool = (function() {
     particles.update(deltaTime);
 
     particles.draw(context, image);
-    // vẽ chữ LOVE QA ở giữa
-context.save();
-context.fillStyle = "#F60748";
-context.font = "bold 30px Arial";
-context.textAlign = "center";
-context.textBaseline = "middle";
-context.fillText("Love Quỳnh Anh", canvas.width / 2, canvas.height / 2);
-context.restore();
+  
 
   }
 
